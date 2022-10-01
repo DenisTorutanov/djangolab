@@ -1,0 +1,70 @@
+<!doctype html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'main/main.css' %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+
+<body>
+   <header>
+        <h1>Лабораторная работа №7</h1>
+    </header>
+
+   <div class="image">
+        <img src= "{% static 'main/photo.JPG' %}" class="img">
+   </div>
+
+   <div class="data">
+       <h2>Основная информация</h2>
+       <p>ФИО: Торутанов Денис Евгеньевич</p>
+       <p>Дата рождения: 06.02.2003</p>
+       <p>Место рождения: город Ульяновск</p>
+   </div>
+
+   <div class="hobby">
+       <h3>Мои увлечения:</h3>
+       <li>Футбол</li>
+       <li>Компьютерные игры</li>
+       <li>Программирование</li>
+       <li>Тяжелая атлетика</li>
+   </div>
+
+   <div class="education">
+       <h3>Образование</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Наименование учебной организации</th>
+                    <th>Годы обучения</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Гимназия №34</td>
+                    <td>2010-2021</td>
+                </tr>
+                <tr>
+                    <td>УлГТУ</td>
+                    <td>2021-2025</td>
+                </tr>
+            </tbody>
+        </table>
+   </div>
+
+   <div class="media">
+       <h4>Ссылки на мои социальные сети</h4>
+       <a href="https://vk.com/id269702000">ВКонтакте</a>
+       <br><a href="https://t.me/DenisTorutanov">Telegram</a>
+   </div>
+
+</body>
+</html>

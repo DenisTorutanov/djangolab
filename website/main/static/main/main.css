@@ -1,0 +1,52 @@
+body{
+    background: #2c2c2c;
+}
+
+header {
+    text-align: center;
+}
+
+.img{
+    height: 450px;
+    width: 350px;
+    border-radius: 15px;
+}
+body{
+    margin-left: 20px;
+    color: #fff
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.data p{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-style: italic;
+}
+
+.hobby li{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.table{
+    color: #fff
+}
+
+.table{
+    width: 30%;
+}
+
+.media a{
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    transform: scale(1.5);
+    color: #eb5959
+}
